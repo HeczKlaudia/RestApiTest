@@ -1,0 +1,32 @@
+{
+  "konyvek": [
+    {
+      "id": "2",
+      "szerzo": "Deborah Harkness",
+      "cim": "Az élet könyve",
+      "ar": 4249,
+      "tipus": "kalandregény"
+    },
+    {
+      "id": "3",
+      "szerzo": "Deborah Harkness",
+      "cim": "Az éjszaka árnyai",
+      "ar": 4740,
+      "tipus": "regény"
+    },
+    {
+      "id": "4",
+      "szerzo": "Rejtő Jenő",
+      "cim": "Piszkos Fred közbelép",
+      "ar": 4350,
+      "tipus": "regény"
+    },
+    {
+      "szerzo": "",
+      "cim": "",
+      "ar": "",
+      "tipus": "",
+      "id": "KxJ44mA"
+    }
+  ]
+}

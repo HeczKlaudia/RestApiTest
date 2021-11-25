@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  background-color: whitesmoke;
+  /* background: url("kepek/api.png"); */
+}
+
+main {
+  padding: 10px;
+}
+
+.konyvek {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 10px;
+  background-color: rgba(85, 128, 141, 0.247);
+  text-align: center;
+  border: 1px solid rgba(85, 128, 141, 0.527);
+  border-radius: 15px;
+}
+
+body,
+.konyvek {
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.konyvek:hover {
+  background-color: rgb(235, 241, 247);
+}
+
+body:hover {
+  background-color: rgba(180, 207, 193, 0.137);
+  cursor: pointer;
+}
+
+#ujAdatokFelvitele input[type="text"] {
+  display: flex;
+}
